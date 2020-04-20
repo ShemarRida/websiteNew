@@ -1,0 +1,133 @@
+header
+{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+
+}
+.navbar
+{
+    padding: 20px 0;
+}
+.navbar-brand
+{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: blue;
+}
+.nav-item
+{
+   font-weight: 800; 
+   text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link
+{
+    color: crimson;
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link
+{
+    color: white;
+    padding: 5px 15px;
+}
+.banner
+{
+    position: relative;
+    background: url(scarface.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+.banner h1
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Girassol', cursive;
+    font-size: 2.8em;
+    font-weight: 1000;
+    color: red;
+    text-transform: uppercase;
+}
+.banner p
+{
+    margin: 1em 0 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: white;
+}
+.btnD1
+{
+    display: inline-block;
+    margin: 1em 0 0;
+    color: gold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 800;
+}
+.btnD1:hover
+{
+    color: violet;
+    text-decoration: none;
+
+}
+.navbar-light .navbar-toggler
+{
+    border: none;
+    color: white;
+    border: 2px solid goldenrod;
+    border-radius: 0;
+}
+@media (max-width: 768px)
+{
+    .banner
+    {
+        padding: 200px 0;
+    }
+    .banner h1
+    {
+        font-size: 1.8em;
+    }
+}
+.iframe
+{
+    border: double 5px black;
+}
+.card-body
+{
+    background: red;
+    color: gold;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+}
+.footer
+{
+    background-color: black;
+    color: currentColor;
+    height: 75px;
+    width: 100%;
+    position: relative;
+}
+.footer .footer-content
+{
+    border: 1px solid rgb(128, 0, 0);
+    height: 75px;
+    width: 100%;
+}
+.footer .footer-bottom
+{
+    background: black;
+    color: red;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
